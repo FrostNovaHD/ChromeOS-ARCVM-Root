@@ -1,19 +1,19 @@
 ## Scripts for rooting ChromeOS ARCVM-based Android subsystem (Android 11+)
 Root ChromeOS Android subsystem with KernelSU, only support ARCVM (not ARC++)
 
-This script will download and install the prebuilt ARCVM kernel (v0.6.7) from KernelSU GitHub Releases.
+This script will download and install the prebuilt ARCVM kernel (v0.9.3) from KernelSU GitHub Releases.
 
 ### Instruction
 **Note: This script will NOT install the KernelSU Android app automatically, you need to install it yourself**
 
 #### Root
 ```shell
-curl -Ls https://raw.githubusercontent.com/supechicken/ChromeOS-ARCVM-Root/main/root.sh | sudo bash -eu
+curl -Ls https://raw.githubusercontent.com/FrostNovaHD/ChromeOS-ARCVM-Root-arm64/main/root.sh | sudo bash -eu
 ```
 
 #### Unroot
 ```shell
-curl -Ls https://raw.githubusercontent.com/supechicken/ChromeOS-ARCVM-Root/main/unroot.sh | sudo bash -eu
+curl -Ls https://raw.githubusercontent.com/FrostNovaHD/ChromeOS-ARCVM-Root-arm64/main/unroot.sh | sudo bash -eu
 ```
 
 ### Notes
