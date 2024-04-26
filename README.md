@@ -8,12 +8,12 @@ This script will download and install the prebuilt ARCVM kernel (v0.9.3) from Ke
 
 #### Root
 ```shell
-curl -Ls https://raw.githubusercontent.com/FrostNovaHD/ChromeOS-ARCVM-Root-arm64/main/root.sh | sudo bash -eu
+curl -Ls https://raw.githubusercontent.com/FrostNovaHD/ChromeOS-ARCVM-Root-arm64/patch-1/root.sh | sudo bash -eu
 ```
 
 #### Unroot
 ```shell
-curl -Ls https://raw.githubusercontent.com/FrostNovaHD/ChromeOS-ARCVM-Root-arm64/main/unroot.sh | sudo bash -eu
+curl -Ls https://raw.githubusercontent.com/FrostNovaHD/ChromeOS-ARCVM-Root-arm64/patch-1/unroot.sh | sudo bash -eu
 ```
 
 ### Notes
