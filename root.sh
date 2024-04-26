@@ -79,7 +79,7 @@ echo "[+] Pointing ${KERNEL_PATH}/vmlinux to vmlinux.ksu..."
 ln -s vmlinux.ksu ${KERNEL_PATH}/vmlinux
 
 echo "[+] Cleanup..."
-fusermount -u /tmp/ksu
+fusermount -u nonempty /tmp/ksu
 rmdir /tmp/ksu
 
 echo
