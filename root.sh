@@ -66,7 +66,7 @@ curl -L -'#' "https://github.com/tiann/KernelSU/releases/download/${KSU_VER}/ker
 echo '[+] Decompressing kernel...'
 mkdir -p ksu
 mount-zip ksu.zip ksu
-cp ksu/bzImage ${KERNEL_PATH}/vmlinux.ksu
+cp ksu/Image ${KERNEL_PATH}/vmlinux.ksu
 
 cd ${KERNEL_PATH}
 
